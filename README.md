@@ -1,5 +1,7 @@
 # Lets-WP - WordPress Pentesting Tool
 
+![main](https://github.com/raphaelthief/lets-wp/blob/main/pic/main.JPG "main")
+
 Let's WP is a lightweight tool designed to assist penetration testers in identifying vulnerabilities on WordPress sites. It simplifies common tasks like discovering default files and directories and performing brute force attacks via the xmlrpc.php API. This tool aims to be a streamlined alternative to more comprehensive tools like WPScan.
 
 ⚠️ Disclaimer: This tool is strictly for educational purposes and authorized security testing. Unauthorized use is illegal and unethical.
@@ -20,6 +22,12 @@ Brute Force Attack via xmlrpc.php :
 User-Friendly Interface:
 - Colorful and well-organized output powered by Colorama.
 - File path auto-completion using prompt_toolkit.
+
+![enumeration](https://github.com/raphaelthief/lets-wp/blob/main/pic/enum.JPG "enumeration")
+
+![multi-threading](https://github.com/raphaelthief/lets-wp/blob/main/pic/multi.JPG "multi-threading")
+
+![demo](https://github.com/raphaelthief/lets-wp/blob/main/pic/demo.gif "demo")
 
 
 ## 🛠️ Installation
