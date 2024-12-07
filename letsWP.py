@@ -122,7 +122,7 @@ def check_wordpress_paths(url, paths):
         full_url = url + path
         try:
             # GET request
-            response = requests.get(full_url)
+            response = requests.get(full_url, verify=False) # Disable SSL verification
 
             # Get status code and response
             print(f"{M}[!] {G}Checking : {Y}{full_url}")
@@ -149,7 +149,7 @@ def check_wordpress_paths(url, paths):
 
 def detect_wordpress_version(url):
     try:
-        response = requests.get(url, timeout=30, verify=False)
+        response = requests.get(url, timeout=30, verify=False) # Disable SSL verification
         if response.status_code != 200:
             print(f"{M}[!] {R}Error : Unable to access the site")
             return None
